@@ -23,6 +23,7 @@ private UserService userService;
     @RequestMapping("userList")
     @ResponseBody
     public List<UserInfo> getUserList(){
+        System.out.println("111");
         return userService.getUserList();
     }
 
