@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.demo1.mapper.UserInfoMapper">
-<select id="selectUserList"  resultType="com.example.demo1.pojo.UserInfo">
+<!--<select id="selectUserList"  resultType="com.example.demo1.pojo.UserInfo">
             select * from user_info
-        </select>
+        </select>-->
 </mapper>
